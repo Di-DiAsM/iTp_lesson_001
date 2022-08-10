@@ -8,18 +8,19 @@ int count = 0;
 
 while (distance > 10)
 {
-    if (directionSecondFriend = true)
+    if (directionSecondFriend)
     {
         time = distance / (firstFriendSpeed + dogSpeed);
         directionSecondFriend = false;
     }
     else
     {
-        time = distance / (firstFriendSpeed + dogSpeed);
+        time = distance / (secondFriendSpeed + dogSpeed);
         directionSecondFriend = true;
     }
     distance -= (firstFriendSpeed + secondFriendSpeed) * time;
     Console.WriteLine(distance);
     count++;
 }
-Console.WriteLine(count);
+Console.WriteLine(" ");
+Console.WriteLine("Собака пробежит " + count);
