@@ -1,5 +1,3 @@
-﻿
-Console.Write("Введит свое имя: ");
+﻿Console.Write("Введит свое имя: ");
 string? name = Console.ReadLine();
 Console.Write("Добрый день " + name + "!");
-
